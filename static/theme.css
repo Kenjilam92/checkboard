@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.checkboard{
+    width: fit-content;
+    box-sizing: border-box;
+    border: black solid 2px;
+    border-collapse: collapse;
+}
+.checkboard tbody tr td{
+    width: 100px;
+    height: 100px;
+}
+.black {
+    background-color: black;
+}   
+
+.red {
+    background-color: red;
+}   
